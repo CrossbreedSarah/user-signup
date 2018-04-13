@@ -1,0 +1,13 @@
+{% extends "base.html"%}
+{% block content %}
+ 
+    <style>
+        .error {color: red}
+    </style>
+
+    <form action="/signup" method="POST">
+        <input type="text", name="username"/>
+        </form></p> 
+    <p class = "error">{{username_error}}</p></label>
+
+{% endblock %}
